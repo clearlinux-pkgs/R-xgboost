@@ -4,7 +4,7 @@
 #
 Name     : R-xgboost
 Version  : 1.6.0.1
-Release  : 5
+Release  : 6
 URL      : https://cran.r-project.org/src/contrib/xgboost_1.6.0.1.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/xgboost_1.6.0.1.tar.gz
 Summary  : Extreme Gradient Boosting
