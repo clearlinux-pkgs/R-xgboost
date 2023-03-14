@@ -4,7 +4,7 @@
 #
 Name     : R-xgboost
 Version  : 1.7.3.1
-Release  : 10
+Release  : 11
 URL      : https://cran.r-project.org/src/contrib/xgboost_1.7.3.1.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/xgboost_1.7.3.1.tar.gz
 Summary  : Extreme Gradient Boosting
@@ -18,9 +18,6 @@ BuildRequires : R-data.table
 BuildRequires : R-jsonlite
 BuildRequires : buildreq-R
 BuildRequires : buildreq-cmake
-# Suppress stripping binaries
-%define __strip /bin/true
-%define debug_package %{nil}
 
 %description
 No detailed description available
@@ -51,10 +48,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1673899740
+export SOURCE_DATE_EPOCH=1678825898
 
 %install
-export SOURCE_DATE_EPOCH=1673899740
+export SOURCE_DATE_EPOCH=1678825898
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/R-xgboost
 cp %{_builddir}/xgboost/LICENSE %{buildroot}/usr/share/package-licenses/R-xgboost/4d98c20884442064704475a2c7092515382cfe48 || :
