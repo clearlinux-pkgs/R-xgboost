@@ -5,7 +5,7 @@
 #
 Name     : R-xgboost
 Version  : 1.7.5.1
-Release  : 13
+Release  : 14
 URL      : https://cran.r-project.org/src/contrib/xgboost_1.7.5.1.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/xgboost_1.7.5.1.tar.gz
 Summary  : Extreme Gradient Boosting
